@@ -4,4 +4,4 @@ A question classifier, training using the dataset with 636 questions in 10 types
 
 user-input supported
 
-using K-Nearest Neighbor Algorithm and MLP Neutral Network
+using K-Nearest Neighbor Algorithm and MLP Neural Network
