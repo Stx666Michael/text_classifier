@@ -125,7 +125,7 @@ def getQuesClass(res,Res):
     for vec in res:
         for num in range(len(vec)):
             if vec[num] == 1:
-                return QC[num],"(Classifier: MLP Neutral Network)"
+                return QC[num],"(Classifier: MLP Neural Network)"
         return QC[Res],"(Classifier: KNN Algorithm)"
 
 
