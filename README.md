@@ -10,7 +10,7 @@
 
 ## Method
 
-- Store question set in one text file
+- Store the question set in one text file, the corresponding **type of each question** in another text file
 
 - Suppose there are **_n_** different words in the question set, we create a __1 * n matrix__, each word corresponds to one element in the array, in the sequence of appearance.
 
