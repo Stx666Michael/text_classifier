@@ -14,7 +14,7 @@
 
 - Suppose there are **_n_** different words in the question set, we create a __1 * n matrix__, each word corresponds to one element in the array, in the sequence of appearance.
 
-- Calculate the **word frequency** of each question, if any word has a frequency **greater than zero**, set the corresponding element in the array to **one**, then set other elements to **zero**.
+- Calculate the **word frequency** of __each question__, if any word has a frequency **greater than zero**, set the corresponding element in the array to **one**, then set other elements to **zero**.
 
 - Suppose there are **_m_** questions in the question set, then we got **_m_** arrays with length **_n_**, each corresponds to one question.
 
