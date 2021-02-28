@@ -16,5 +16,15 @@
 
 - Calculate the **word frequency** of each question, if any word has a frequency **greater than zero**, set the corresponding element in the array to **one**, then set other elements to **zero**.
 
+- Suppose there are _ **m** _ questions in the question set, then we got _m_ arrays with length _n_, each corresponds to one question.
 
+- Read another text file and get the labels of each question. Pair the labels with questions’ corresponding array.
+
+- Train the model with (array_1, label_1) to (array_n, label_n)
+
+- Get user-input question, convert it to a __1*n matrix__ as before, use the model to predict its corresponding label, which gives its type
+
+## Validation
+
+To be continued...
 
