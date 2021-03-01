@@ -45,8 +45,8 @@ Vreni offered a large sum of questions, and updated our question dataset as well
 - install _Python 3.x_
 - install _Python package_ __Numpy, matplotlib__ and __Scipy__
 - install _Python package_ __sklearn__
-- download _hamlet_all.txt_ and _labels_all.txt_
-- open _NLPC_CV.py_
+- download __hamlet_all.txt__ and __labels_all.txt__
+- open __NLPC_CV.py__
 
 
 
