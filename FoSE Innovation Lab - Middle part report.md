@@ -2,7 +2,7 @@
 
 ### Part1: Brief Introduction
 
-The project is "Faculty Reception Enquiry Support Heuristics", and our group play the role as a bridge between front end and back end. By applying K-Nearest Neighbour Algorithm and MLP Neural Network, we build a "Question classifier". We could pass the question(text version) from the front end to this classifier, and it would output the class of the question. To train the classifier we used a dataset with 636 questions in 10 types, and it finally reached the accuracy of ...
+The project is "Faculty Reception Enquiry Support Heuristics", and our group play the role as a bridge between front end and back end. By applying K-Nearest Neighbour Algorithm and MLP Neural Network, we build a "Question classifier". We could pass the question(text version) from the front end to this classifier, and it would output the class of the question. To train the classifier we used a dataset with 636 questions in 10 types, and it finally reached the accuracy of 94.8%.
 
 ### Part 2: How it works?
 
@@ -38,7 +38,12 @@ Vreni offered a large sum of questions, and updated our question dataset as well
 
 ### Part 4: How is its Performance?
 
+- Accuracy (MLP Neural Network): 94.3%
+- Accuracy (KNN Algorithm): 94.8%
 
+Obtained by **Leave-One-Out-Cross-Validation (LOOCV)**
+
+This program use _both_ above methods.
 
 ### Part 5: How to use it?
 
