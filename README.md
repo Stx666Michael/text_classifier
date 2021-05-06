@@ -24,6 +24,10 @@
 
 - Get user-input question, convert it to a __1*n matrix__ as before, use the model to **predict** its corresponding label, which gives its type
 
+## Screenshot
+
+![Screenshot](../屏幕截图 2021-02-06 140100.jpg " ")
+
 # Background
 
 ## FoSE Innovation Lab - Middle Part Report
