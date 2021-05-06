@@ -172,8 +172,6 @@ def main():
     error_num = 0
     num = len(dataSet)
     for i in range(num):
-        #比较长度为10的数组，返回包含01的数组，0为不同，1为相同
-        #若预测结果与真实结果相同，则10个数字全为1，否则不全为1
         if np.sum(res[i] == hwLabels[i]) < 10: 
             error_num += 1 
     print("Wrong:",error_num,"in",num,"\nAccuracy:",round(1-error_num/num,6))
