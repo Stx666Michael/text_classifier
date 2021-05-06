@@ -26,7 +26,7 @@
 
 ## Screenshot
 
-![Screenshot](../屏幕截图 2021-02-06 140100.jpg " ")
+![Screenshot](./images/屏幕截图 2021-02-06 140100.jpg)
 
 # Background
 
