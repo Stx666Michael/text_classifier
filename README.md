@@ -26,7 +26,7 @@
 
 ## Screenshot
 
-![Screenshot](./images/屏幕截图 2021-02-06 140100.jpg)
+![Screenshot](./images/screenshot.jpg)
 
 # Background
 
@@ -46,11 +46,7 @@ The program will read another text file and get the labels of each question. We 
 
 Get user-input question, convert it to a 1\*n matrix as before, use the model to predict its corresponding label, which gives its type.
 
-```mermaid
-graph TD
-QS[Question Set]-->|generate matrix|m1[Matrix]-->|calculate word frequency|a1[Corresponding Arrays]-->|train|m[Trained Model]
-TS[Type Set]-->|analyse|label[labels of Questions]-->|train|m[Trained Model]-->|input question|a[Question Type]
-```
+![Procedure](./images/procedure.jpg)
 
 ### Part 3: Where data comes from?
 
